@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Login Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    {{>nav}}
+  <section>
+    <div style="margin-left:366px;">
+    <form action="/login" method ="POST" class="container">
+        <br><br><br>
+        <div class="main">
+      <p style="text-transform:uppercase;text-align:center;letter-spacing:1;font-size:25px;">Login</p><br>
+      <input type="text" placeholder="Enter Roll Number" name="roll" class="form-control" autocomplete="off" required><br>
+      <input type="password" placeholder="Enter Password" name="password" class="form-control" autocomplete="off" required><br>
+      <input type="submit" value="Login" class="btn btn-3" style="width:200px;"><br><br><br><br><br>
+      <p style="margin-top:20px;padding:-500px;">Don't have an account ? <a href="/register">Register Here.</a></p>
+    </div>
+    </form>
+  </div>
+</section>
+  </body>
+</html>

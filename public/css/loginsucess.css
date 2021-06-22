@@ -1,0 +1,26 @@
+body
+{
+margin:0;
+padding:0;
+}
+
+.btn
+{
+flex: 1 1 auto;
+text-align:center;
+transition:0.5s;
+background-size:200% auto;
+color:white;
+border-radius:5px;
+}
+
+.btn-3
+{
+background-image: linear-gradient(to right,#05AFF2 0%, #71D99E 51%, #05AFF2 100%);
+}
+
+.btn:hover
+{
+background-position: right center;
+color:black;
+}

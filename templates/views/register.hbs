@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    {{>nav}}
+  <section>
+    <div style="margin-left:366px;">
+    <form action="/register" method ="POST" class="container">
+      <br><br>
+      <div class="main">
+        <p style="text-transform:uppercase;text-align:center;letter-spacing:1;font-size:25px;">Registration Info</p><br>
+      <input type="text" placeholder="Enter Roll Number" name="roll" class="form-control" autocomplete="off" required><br>
+      <input type="text" placeholder="First Name" name="firstname" class="form-control" autocomplete="off" required><br>
+      <input type="text" placeholder="Last Name" name="lastname" class="form-control" autocomplete="off" required><br>
+      <input type="password" placeholder="Enter Password" name="password" class="form-control" autocomplete="off" required><br>
+      <input type="password" placeholder="Confirm Password" name="confirmpassword" class="form-control" autocomplete="off" required><br>
+      <p>Select Gender:<br>
+      <input type="radio" value="male" name="gender" required> Male&nbsp&nbsp<input type="radio" value="female" name="gender"> Female<br><br><br>
+      <input type="submit" value="Register" class="btn btn-3" style="width:200px;"><br></p>
+      <p style="margin-top:20px;padding:-500px;">Already have an account ? <a href="/login">Login Here.</a></p>
+    </div>
+    </form>
+  </div>
+</section>
+  </body>
+</html>

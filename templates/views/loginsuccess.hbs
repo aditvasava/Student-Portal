@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="loginsucess.css">
+  </head>
+  <body>
+    <div style="border:1px solid grey;margin:5px;padding:50px;border-radius:10px;width:1200px;height:230px;">
+    <p>You have successfully logged in !</p><br>
+    <p><button  class="btn btn-3" onclick="a()" style="width:100px;">Logout</button></p>
+    <p></p><br>
+  </div>
+  <script>
+  function a()
+  {
+    window.location.href='/login';
+    req.flash("You have logged out.");
+  }
+  </script>
+  </body>
+</html>

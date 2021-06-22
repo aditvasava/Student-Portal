@@ -1,0 +1,51 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+
+p
+{
+  padding-top:200;
+  font-size:75px;
+  letter-spacing:15;
+  text-align: center;
+  color:white;
+}
+
+header
+{
+height:100px;
+width:1536px;
+background-image:linear-gradient(to bottom right,#09EBA7,#02BAF6);
+}
+
+section
+{
+height:675px;
+width:1536px;
+background-color:skyblue;
+}
+
+nav
+{
+position:relative;
+float:right;
+margin-right:80px;
+}
+
+ul li
+{
+list-style-type:none;
+display:inline-block;
+padding:25px 45px;;
+margin-top:7px;
+}
+
+header li a
+{
+text-decoration:none;
+font-size:15px;
+text-transform:uppercase;
+color:black;
+}
